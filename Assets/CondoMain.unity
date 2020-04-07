@@ -457,6 +457,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4682276378175454477, guid: fc6ef3bde8924c047bd9ad07a623263b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fc6ef3bde8924c047bd9ad07a623263b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -527,10 +532,25 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -1455612388732706874, guid: fc6ef3bde8924c047bd9ad07a623263b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: fc6ef3bde8924c047bd9ad07a623263b,
         type: 3}
       propertyPath: m_Name
       value: CondoAll
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393289554972360631, guid: fc6ef3bde8924c047bd9ad07a623263b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718933378479976523, guid: fc6ef3bde8924c047bd9ad07a623263b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8835954295408595638, guid: fc6ef3bde8924c047bd9ad07a623263b,
         type: 3}

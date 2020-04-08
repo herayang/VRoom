@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vroom2.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\g8sof\\Documents\\Capstone\\CapstoneGroup\\VRoom\\VirtualBox3DHomeTour\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "VRoom2 [Testing]"
+        }
+      }
+    }
+  ]
+}

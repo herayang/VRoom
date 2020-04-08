@@ -6,10 +6,10 @@ public class ChangeButton : MonoBehaviour
 {
 	public GameObject menu;
 	private bool visible = false;
-	public static ConsoleButton ins; 
-	private void OnTriggerEnter(Collider other)
+	
+	void OnMouseDown()
 	{
-		if (visible)
+		if (!visible)
 		{
 			menu.SetActive(true);
 			visible = true;
@@ -19,6 +19,12 @@ public class ChangeButton : MonoBehaviour
 			visible = false; 
 		}
 
+	}
+
+	void Update() {
+		if (Input.GetMouseButtonDown(0)) {
+			OnMouseDown();
+		}
 	}
 
 }
